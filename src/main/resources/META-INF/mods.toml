@@ -5,9 +5,13 @@ loaderVersion="[31,)"
 modId="loydmod"
 version="1.0.0"
 displayName="Land Of Your Dreams"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="I created this using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="ericbender, MCreator"
+logoFile="logo.png"
+authors="OceanicOxen using MCreator"
+description='''
+This is a mod that allows the player to enter dream worlds 
+'''
 
 [[dependencies.loydmod]]
     modId="minecraft"
