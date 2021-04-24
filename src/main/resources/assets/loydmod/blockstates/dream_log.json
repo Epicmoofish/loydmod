@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "loydmod:block/dream_log" },
+        "axis=z":   { "model": "loydmod:block/dream_log", "x": 90 },
+        "axis=x":   { "model": "loydmod:block/dream_log", "x": 90, "y": 90 }
+    }
+}

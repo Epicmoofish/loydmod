@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "loydmod:blocks/dream_sapling",
+    "particle": "loydmod:blocks/dream_sapling"
+  }
+}

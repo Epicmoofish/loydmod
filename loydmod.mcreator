@@ -1,0 +1,387 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "DreamWood",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_wood"
+    },
+    {
+      "name": "DreamLog",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_log"
+    },
+    {
+      "name": "DreamPlanks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_planks"
+    },
+    {
+      "name": "DreamLeaves",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_leaves"
+    },
+    {
+      "name": "DreamStairs",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_stairs"
+    },
+    {
+      "name": "DreamSlab",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_slab"
+    },
+    {
+      "name": "DreamFence",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_fence"
+    },
+    {
+      "name": "DreamFenceGate",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_fence_gate"
+    },
+    {
+      "name": "DreamItemsTag",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_items_tag"
+    },
+    {
+      "name": "DreamWoodRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_wood_recipe"
+    },
+    {
+      "name": "DreamPlanksRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_planks_recipe"
+    },
+    {
+      "name": "DreamStairsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_stairs_recipe"
+    },
+    {
+      "name": "DreamSlabRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_slab_recipe"
+    },
+    {
+      "name": "DreamFenceRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_fence_recipe"
+    },
+    {
+      "name": "DreamFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_fence_gate_recipe"
+    },
+    {
+      "name": "DreamStickRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_stick_recipe"
+    },
+    {
+      "name": "DreamWoodLootTable",
+      "type": "loottable",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_wood_loot_table"
+    },
+    {
+      "name": "DreamLogLootTable",
+      "type": "loottable",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_log_loot_table"
+    },
+    {
+      "name": "DreamPlanksLootTable",
+      "type": "loottable",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_planks_loot_table"
+    },
+    {
+      "name": "DreamStairsLootTable",
+      "type": "loottable",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_stairs_loot_table"
+    },
+    {
+      "name": "DreamSlabLootTable",
+      "type": "loottable",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_slab_loot_table"
+    },
+    {
+      "name": "DreamFenceLootTable",
+      "type": "loottable",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_fence_loot_table"
+    },
+    {
+      "name": "DreamFenceGateLootTable",
+      "type": "loottable",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_fence_gate_loot_table"
+    },
+    {
+      "name": "DreamSapling",
+      "type": "plant",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_sapling"
+    },
+    {
+      "name": "LeavesTag",
+      "type": "tag",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "leaves"
+    },
+    {
+      "name": "LogsTag",
+      "type": "tag",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "logs_tag"
+    },
+    {
+      "name": "DreamForest",
+      "type": "biome",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_forest"
+    },
+    {
+      "name": "DreamPlains",
+      "type": "biome",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_plains"
+    },
+    {
+      "name": "DreamDimension",
+      "type": "dimension",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_dimension"
+    },
+    {
+      "name": "DreamSaplingLootTable",
+      "type": "loottable",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_sapling_loot_table"
+    },
+    {
+      "name": "DreamLeavesLootTable",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_leaves_loot_table"
+    },
+    {
+      "name": "DreamStone",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_stone"
+    },
+    {
+      "name": "DreamgemOre",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamgem_ore"
+    },
+    {
+      "name": "DreamyOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamy_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dreamy",
+      "type": "potion",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamy"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "biome.loydmod.dream_forest": "Dream Forest",
+      "item.minecraft.lingering_potion.effect.dreamy": "Lingering Dreamy",
+      "block.loydmod.dream_planks": "Dream Planks",
+      "block.loydmod.dream_wood": "Dream Wood",
+      "item.minecraft.splash_potion.effect.dreamy": "Splash Dreamy",
+      "item.minecraft.tipped_arrow.effect.dreamy": "Arrow of Dreamy",
+      "block.loydmod.dream_log": "Dream Log",
+      "block.loydmod.dream_stone": "Dream Stone",
+      "item.minecraft.potion.effect.dreamy": "Dreamy",
+      "block.loydmod.dream_fence_gate": "Dream Fence Gate",
+      "biome.loydmod.dream_plains": "Dream Plains",
+      "block.loydmod.dream_stairs": "Dream Stairs",
+      "block.loydmod.dreamgem_ore": "Dreamgem Ore",
+      "effect.dreamy": "Dreamy",
+      "block.loydmod.dream_sapling": "Dream Sapling",
+      "item.loydmod.dream_dimension": "Dream Dimension Portal Igniter",
+      "block.loydmod.dream_slab": "Dream Slab",
+      "block.loydmod.dream_leaves": "Dream Leaves",
+      "block.loydmod.dream_fence": "Dream Fence"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "loydmod",
+    "modName": "Land Of Your Dreams",
+    "version": "1.0.0",
+    "author": "ericbender, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.oceanicoxen.loydmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

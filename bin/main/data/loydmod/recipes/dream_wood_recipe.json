@@ -1,0 +1,26 @@
+{
+  "group": "loydmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "loydmod:dream_log"
+    },
+    "1": {
+      "item": "loydmod:dream_log"
+    },
+    "2": {
+      "item": "loydmod:dream_log"
+    },
+    "3": {
+      "item": "loydmod:dream_log"
+    }
+  },
+  "result": {
+    "item": "loydmod:dream_wood",
+    "count": 3
+  }
+}

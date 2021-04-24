@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "loydmod:block/dream_slab"
+    },
+    "type=top": {
+      "model": "loydmod:block/dream_slab_top"
+    },
+    "type=double": {
+      "model": "loydmod:block/dream_slab_full"
+    }
+  }
+}
