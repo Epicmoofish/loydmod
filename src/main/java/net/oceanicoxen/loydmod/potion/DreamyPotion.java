@@ -26,6 +26,8 @@ public class DreamyPotion extends LoydmodModElements.ModElement {
 	public static final Effect potion = null;
 	@ObjectHolder("loydmod:dreamy")
 	public static final Potion potionType = null;
+	@ObjectHolder("loydmod:dreamy_long")
+	public static final Potion potionTypeLong = null;
 	public DreamyPotion(LoydmodModElements instance) {
 		super(instance, 34);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -39,11 +41,19 @@ public class DreamyPotion extends LoydmodModElements.ModElement {
 	@SubscribeEvent
 	public void registerPotion(RegistryEvent.Register<Potion> event) {
 		event.getRegistry().register(new PotionCustom());
+		event.getRegistry().register(new LongPotionCustom());
 	}
 	public static class PotionCustom extends Potion {
 		public PotionCustom() {
 			super(new EffectInstance(potion, 3600));
 			setRegistryName("dreamy");
+		}
+	}
+
+	public static class LongPotionCustom extends Potion {
+		public LongPotionCustom() {
+			super(new EffectInstance(potion, 7200));
+			setRegistryName("dreamy_long");
 		}
 	}
 
