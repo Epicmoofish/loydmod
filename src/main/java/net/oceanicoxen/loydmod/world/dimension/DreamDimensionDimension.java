@@ -110,6 +110,12 @@ public class DreamDimensionDimension extends LoydmodModElements.ModElement {
 		}
 
 		@Override
+		public float getLightBrightness(int p_227174_1_) {
+			// TODO Auto-generated method stub
+			return 15;
+		}
+
+		@Override
 		public boolean canDoLightning(Chunk chunk) {
 			return false;
 		}
@@ -135,7 +141,7 @@ public class DreamDimensionDimension extends LoydmodModElements.ModElement {
 
 		@Override
 		public boolean isSurfaceWorld() {
-			return false;
+			return true;
 		}
 
 		@Override
@@ -169,12 +175,9 @@ public class DreamDimensionDimension extends LoydmodModElements.ModElement {
 			return false;
 		}
 
-		@Override /**
-					 * Calculates the angle of sun and moon in the sky relative to a specified time
-					 * (usually worldTime)
-					 */
+		@Override 
 		public float calculateCelestialAngle(long worldTime, float partialTicks) {
-			double d0 = MathHelper.frac((double) worldTime / 24000.0D - 0.25D);
+			double d0 = MathHelper.frac(6000 / 24000.0D - 0.25D);
 			double d1 = 0.5D - Math.cos(d0 * Math.PI) / 2.0D;
 			return (float) (d0 * 2.0D + d1) / 3.0F;
 		}

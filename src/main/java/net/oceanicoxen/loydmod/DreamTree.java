@@ -1,4 +1,4 @@
-package net.oceanicoxen.loydmod.tree;
+package net.oceanicoxen.loydmod;
 
 
 import java.util.Random;

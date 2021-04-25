@@ -24,14 +24,21 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.Potions;
+import net.minecraft.world.GrassColors;
+import net.minecraft.world.biome.BiomeColors;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.client.event.ColorHandlerEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.oceanicoxen.loydmod.block.DreamGrassBlockBlock;
 import net.oceanicoxen.loydmod.potion.DreamyPotion;
 
 @LoydmodModElements.ModElement.Tag
+@Mod.EventBusSubscriber(value = Dist.CLIENT, modid = "loydmod")
 public class CustomBrewingRecipes extends LoydmodModElements.ModElement {
 	/**
 	 * Do not remove this constructor
@@ -52,6 +59,14 @@ public class CustomBrewingRecipes extends LoydmodModElements.ModElement {
 		} catch (Throwable e) {
 			System.err.println("ERROR: " + e); // You can change this part
 		}
+	}
+	@OnlyIn(Dist.CLIENT)
+	@SubscribeEvent
+	public void registerBlockColors(ColorHandlerEvent.Block event) {
+		System.out.println("hey from block color");
+		event.getBlockColors().register((p_228064_0_, p_228064_1_, p_228064_2_, p_228064_3_) -> {
+			return p_228064_1_ != null && p_228064_2_ != null ? BiomeColors.getGrassColor(p_228064_1_, p_228064_2_) : GrassColors.get(0.5D, 1.0D);
+		}, DreamGrassBlockBlock.block);
 	}
 
 	@OnlyIn(Dist.CLIENT)

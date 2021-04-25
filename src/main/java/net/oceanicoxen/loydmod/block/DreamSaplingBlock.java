@@ -28,8 +28,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.registries.ObjectHolder;
+import net.oceanicoxen.loydmod.DreamTree;
 import net.oceanicoxen.loydmod.LoydmodModElements;
-import net.oceanicoxen.loydmod.tree.DreamTree;
 
 @LoydmodModElements.ModElement.Tag
 public class DreamSaplingBlock extends LoydmodModElements.ModElement {
