@@ -14,11 +14,11 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
 @LoydmodModElements.ModElement.Tag
-public class DreamStoneBlock extends LoydmodModElements.ModElement {
-	@ObjectHolder("loydmod:dream_stone")
+public class DreamCobblestoneBlock extends LoydmodModElements.ModElement {
+	@ObjectHolder("loydmod:dream_cobblestone")
 	public static final Block block = null;
-	public DreamStoneBlock(LoydmodModElements instance) {
-		super(instance, 32);
+	public DreamCobblestoneBlock(LoydmodModElements instance) {
+		super(instance, 40);
 	}
 
 	@Override
@@ -29,9 +29,9 @@ public class DreamStoneBlock extends LoydmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 6f).lightValue(0).harvestLevel(0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).lightValue(0).harvestLevel(0)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("dream_stone");
+			setRegistryName("dream_cobblestone");
 		}
 	}
 }

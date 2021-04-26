@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:block",
+  "type": "minecraft:generic",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "loydmod:dream_slab",
+          "name": "loydmod:dream_cobblestone",
           "weight": 1,
           "functions": [
             {
