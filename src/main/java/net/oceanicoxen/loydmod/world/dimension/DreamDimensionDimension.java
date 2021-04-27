@@ -146,7 +146,7 @@ public class DreamDimensionDimension extends LoydmodModElements.ModElement {
 
 		@Override
 		public boolean canRespawnHere() {
-			return true;
+			return false;
 		}
 
 		@OnlyIn(Dist.CLIENT)
@@ -157,7 +157,7 @@ public class DreamDimensionDimension extends LoydmodModElements.ModElement {
 
 		@Override
 		public SleepResult canSleepAt(PlayerEntity player, BlockPos pos) {
-			return SleepResult.ALLOW;
+			return SleepResult.DENY;
 		}
 
 		@Nullable

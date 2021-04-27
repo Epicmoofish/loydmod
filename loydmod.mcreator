@@ -447,6 +447,75 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dreamgem"
+    },
+    {
+      "name": "DreamgemBlock",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamgem_block"
+    },
+    {
+      "name": "DreamgemBlockLootTable",
+      "type": "loottable",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamgem_block_loot_table"
+    },
+    {
+      "name": "WakeFromBedProcedure",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "wake_from_bed_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DreamifyBlocks",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamify_blocks",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DreamyExplosion",
+      "type": "code",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dreamy_explosion"
+    },
+    {
+      "name": "DreamStaff",
+      "type": "gun",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_staff"
     }
   ],
   "variable_elements": [],
@@ -476,7 +545,9 @@
       "item.minecraft.lingering_potion.effect.dreamy_long": "Lingering Potion Of Dreaminess",
       "biome.loydmod.dream_plains": "Dream Plains",
       "block.loydmod.dream_stairs": "Dream Stairs",
+      "block.loydmod.dreamgem_block": "Block of Dreamgem",
       "block.loydmod.dream_cobblestone": "Dream Cobblestone",
+      "item.loydmod.dream_staff": "Dream Staff",
       "block.loydmod.dream_sapling": "Dream Sapling",
       "block.loydmod.dream_leaves": "Dream Leaves"
     }
