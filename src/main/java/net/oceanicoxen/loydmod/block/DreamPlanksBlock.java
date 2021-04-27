@@ -33,7 +33,9 @@ public class DreamPlanksBlock extends LoydmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).lightValue(0).harvestLevel(0)
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).setLightLevel((state) -> {
+			      return 0;
+			   }).harvestLevel(0)
 					.harvestTool(ToolType.AXE));
 			setRegistryName("dream_planks");
 		}

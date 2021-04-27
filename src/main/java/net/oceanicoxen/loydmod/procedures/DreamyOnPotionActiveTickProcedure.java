@@ -1,6 +1,7 @@
 package net.oceanicoxen.loydmod.procedures;
 
 import net.oceanicoxen.loydmod.LoydmodModElements;
+import net.oceanicoxen.loydmod.LoydmodMod;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.AxisAlignedBB;
@@ -24,27 +25,27 @@ public class DreamyOnPotionActiveTickProcedure extends LoydmodModElements.ModEle
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure DreamyOnPotionActiveTick!");
+				LoydmodMod.LOGGER.warn("Failed to load dependency entity for procedure DreamyOnPotionActiveTick!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure DreamyOnPotionActiveTick!");
+				LoydmodMod.LOGGER.warn("Failed to load dependency x for procedure DreamyOnPotionActiveTick!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure DreamyOnPotionActiveTick!");
+				LoydmodMod.LOGGER.warn("Failed to load dependency y for procedure DreamyOnPotionActiveTick!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure DreamyOnPotionActiveTick!");
+				LoydmodMod.LOGGER.warn("Failed to load dependency z for procedure DreamyOnPotionActiveTick!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure DreamyOnPotionActiveTick!");
+				LoydmodMod.LOGGER.warn("Failed to load dependency world for procedure DreamyOnPotionActiveTick!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

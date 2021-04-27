@@ -34,7 +34,9 @@ public class DreamLeavesBlock extends LoydmodModElements.ModElement {
 	}
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).lightValue(0).notSolid());
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel((state) -> {
+			      return 0;
+			   }).notSolid());
 			setRegistryName("dream_leaves");
 		}
 

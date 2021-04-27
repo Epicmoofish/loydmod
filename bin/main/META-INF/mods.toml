@@ -1,5 +1,6 @@
 modLoader="javafml"
-loaderVersion="[31,)"
+loaderVersion="[36,)"
+license="Not specified"
 
 [[mods]]
 modId="loydmod"
@@ -16,7 +17,7 @@ This is a mod that allows the player to enter dream worlds
 [[dependencies.loydmod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.5]"
     ordering="NONE"
     side="BOTH"
 

@@ -2,10 +2,7 @@ package net.oceanicoxen.loydmod.procedures;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Optional;
 import java.util.concurrent.atomic.AtomicReference;
-
-import com.mojang.datafixers.util.Either;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -16,21 +13,21 @@ import net.minecraft.network.play.server.SPlayEntityEffectPacket;
 import net.minecraft.network.play.server.SPlaySoundEventPacket;
 import net.minecraft.network.play.server.SPlayerAbilitiesPacket;
 import net.minecraft.potion.EffectInstance;
+import net.minecraft.util.RegistryKey;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.World;
-import net.minecraft.world.dimension.DimensionType;
-import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.entity.player.PlayerSleepInBedEvent;
 import net.minecraftforge.event.entity.player.SleepingTimeCheckEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.oceanicoxen.loydmod.LoydmodModElements;
-import net.oceanicoxen.loydmod.world.dimension.DreamDimensionDimension;
+import net.oceanicoxen.loydmod.item.TinyNeedleItem;
 
 @LoydmodModElements.ModElement.Tag
 public class WakeFromBedProcedureProcedure extends LoydmodModElements.ModElement {
@@ -60,7 +57,7 @@ public class WakeFromBedProcedureProcedure extends LoydmodModElements.ModElement
 			if (_iitemhandlerref.get() != null) {
 				for (int _idx = 0; _idx < _iitemhandlerref.get().getSlots(); _idx++) {
 					ItemStack itemstackiterator = _iitemhandlerref.get().getStackInSlot(_idx).copy();
-					if ((!((itemstackiterator).getItem() == (ItemStack.EMPTY).getItem()))) {
+					if ((!((itemstackiterator).getItem() == (ItemStack.EMPTY).getItem())) && (!((itemstackiterator).getItem() == TinyNeedleItem.block))) {
 						IsAllowedIn = (boolean) (false);
 					}
 				}
@@ -72,13 +69,13 @@ public class WakeFromBedProcedureProcedure extends LoydmodModElements.ModElement
 				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
 					if (((ServerPlayerEntity) _ent).getSleepTimer()>40) {
 						((ServerPlayerEntity) _ent).wakeUp();
-					DimensionType destinationType = DreamDimensionDimension.type;
-					ObfuscationReflectionHelper.setPrivateValue(ServerPlayerEntity.class, (ServerPlayerEntity) _ent, true, "field_184851_cj");
+						RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("loydmod:dream_dimension"));
+						ObfuscationReflectionHelper.setPrivateValue(ServerPlayerEntity.class, (ServerPlayerEntity) _ent, true, "field_184851_cj");
 					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
-					((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(4, 0));
+					((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket());
 					((ServerPlayerEntity) _ent).teleport(nextWorld, _ent.getPosition().getX(), _ent.getPosition().getY(),
 							_ent.getPosition().getZ(), _ent.rotationYaw, _ent.rotationPitch);
-					for(double d0 = _ent.getPosY(); d0 > 0.0D && d0 < _ent.world.getDimension().getHeight(); ++d0) {
+					for(double d0 = _ent.getPosY(); d0 > 0.0D && d0 < _ent.world.getHeight(); ++d0) {
 			            _ent.setPosition(_ent.getPosX(), d0, _ent.getPosZ());
 			            if (_ent.world.hasNoCollisions(_ent)) {
 			               break;

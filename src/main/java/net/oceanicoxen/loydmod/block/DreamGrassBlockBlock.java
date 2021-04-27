@@ -1,16 +1,25 @@
 
 package net.oceanicoxen.loydmod.block;
 
-import net.oceanicoxen.loydmod.LoydmodModElements;
+import java.util.List;
+import java.util.Random;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.common.IPlantable;
-import net.minecraftforge.common.ToolType;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.GrassBlock;
+import net.minecraft.block.IGrowable;
+import net.minecraft.block.SnowBlock;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.tags.FluidTags;
+import net.minecraft.util.Direction;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorldReader;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
@@ -18,27 +27,13 @@ import net.minecraft.world.gen.feature.DecoratedFeatureConfig;
 import net.minecraft.world.gen.feature.FlowersFeature;
 import net.minecraft.world.lighting.LightEngine;
 import net.minecraft.world.server.ServerWorld;
-import net.minecraft.util.Direction;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.item.ItemStack;
-import net.minecraft.tags.FluidTags;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItem;
-import net.minecraft.client.renderer.RenderTypeLookup;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.GrassBlock;
-import net.minecraft.block.IGrowable;
-import net.minecraft.block.SnowBlock;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.Block;
-
-import java.util.List;
-import java.util.Random;
-import java.util.Collections;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.common.IPlantable;
+import net.minecraftforge.common.ToolType;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.registries.ObjectHolder;
+import net.oceanicoxen.loydmod.LoydmodModElements;
 
 @LoydmodModElements.ModElement.Tag
 public class DreamGrassBlockBlock extends LoydmodModElements.ModElement {
@@ -62,7 +57,9 @@ public class DreamGrassBlockBlock extends LoydmodModElements.ModElement {
 	}
 	public static class CustomBlock extends GrassBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(0.6f, 0.6f).lightValue(0).harvestLevel(-1)
+			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(0.6f, 0.6f).setLightLevel((state) -> {
+			      return 0;
+			   }).harvestLevel(-1)
 					.harvestTool(ToolType.SHOVEL).tickRandomly());
 			setRegistryName("dream_grass_block");
 		}
@@ -93,14 +90,15 @@ public class DreamGrassBlockBlock extends LoydmodModElements.ModElement {
 
 		               BlockState blockstate1;
 		               if (rand.nextInt(8) == 0) {
-		                  List<ConfiguredFeature<?, ?>> list = worldIn.getBiome(blockpos1).getFlowers();
-		                  if (list.isEmpty()) {
-		                     break;
-		                  }
+		                   List<ConfiguredFeature<?, ?>> list = worldIn.getBiome(blockpos1).getGenerationSettings().getFlowerFeatures();
+		                   if (list.isEmpty()) {
+		                      continue;
+		                   }
 
-		                  ConfiguredFeature<?, ?> configuredfeature = ((DecoratedFeatureConfig)(list.get(0)).config).feature;
-		                  blockstate1 = ((FlowersFeature)configuredfeature.feature).getFlowerToPlace(rand, blockpos1, configuredfeature.config);
-		               } else {
+		                   ConfiguredFeature<?, ?> configuredfeature = list.get(0);
+		                   FlowersFeature flowersfeature = (FlowersFeature)configuredfeature.feature;
+		                   blockstate1 = flowersfeature.getFlowerToPlace(rand, blockpos1, configuredfeature.getConfig());
+		                } else {
 		                  blockstate1 = blockstate;
 		               }
 
@@ -111,7 +109,7 @@ public class DreamGrassBlockBlock extends LoydmodModElements.ModElement {
 		            }
 
 		            blockpos1 = blockpos1.add(rand.nextInt(3) - 1, (rand.nextInt(3) - 1) * rand.nextInt(3) / 2, rand.nextInt(3) - 1);
-		            if (worldIn.getBlockState(blockpos1.down()).getBlock() != this || worldIn.getBlockState(blockpos1).isCollisionShapeOpaque(worldIn, blockpos1)) {
+		            if (worldIn.getBlockState(blockpos1.down()).getBlock() != this || worldIn.getBlockState(blockpos1).isOpaqueCube(worldIn, blockpos1)) {
 		               break;
 		            }
 
@@ -137,7 +135,7 @@ public class DreamGrassBlockBlock extends LoydmodModElements.ModElement {
 		      return func_220257_b(p_220256_0_, p_220256_1_, p_220256_2_) && !p_220256_1_.getFluidState(blockpos).isTagged(FluidTags.WATER);
 		   }
 		   @Override
-		   public void tick(BlockState state, ServerWorld worldIn, BlockPos pos, Random rand) {
+		   public void randomTick(BlockState state, ServerWorld worldIn, BlockPos pos, Random rand) {
 		      if (!func_220257_b(state, worldIn, pos)) {
 		         if (!worldIn.isAreaLoaded(pos, 3)) return; // Forge: prevent loading unloaded chunks when checking neighbor's light and spreading
 		         worldIn.setBlockState(pos, DreamDirtBlock.block.getDefaultState());

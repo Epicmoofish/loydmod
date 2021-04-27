@@ -33,7 +33,9 @@ public class DreamSlabBlock extends LoydmodModElements.ModElement {
 	}
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).lightValue(0));
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).setLightLevel((state) -> {
+			      return 0;
+			   }));
 			setRegistryName("dream_slab");
 		}
 

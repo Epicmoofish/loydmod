@@ -24,16 +24,12 @@ import org.apache.logging.log4j.Logger;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.GrassColors;
-import net.minecraft.world.ILightReader;
-import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.BiomeColors;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -59,22 +55,16 @@ public class LoydmodMod {
 	public LoydmodModElements elements;
 	public LoydmodMod() {
 		elements = new LoydmodModElements();
-		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::init);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
-		MinecraftForge.EVENT_BUS.register(this);
+		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::init);
+		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientLoad);
+		MinecraftForge.EVENT_BUS.register(new LoydmodModFMLBusEvents(this));
 	}
 
 	private void init(FMLCommonSetupEvent event) {
 		elements.getElements().forEach(element -> element.init(event));
 	}
 
-	@SubscribeEvent
-	public void serverLoad(FMLServerStartingEvent event) {
-		elements.getElements().forEach(element -> element.serverLoad(event));
-	}
-
-	@SubscribeEvent
-	@OnlyIn(Dist.CLIENT)
 	public void clientLoad(FMLClientSetupEvent event) {
 		elements.getElements().forEach(element -> element.clientLoad(event));
 	}
@@ -87,11 +77,6 @@ public class LoydmodMod {
 	@SubscribeEvent
 	public void registerItems(RegistryEvent.Register<Item> event) {
 		event.getRegistry().registerAll(elements.getItems().stream().map(Supplier::get).toArray(Item[]::new));
-	}
-
-	@SubscribeEvent
-	public void registerBiomes(RegistryEvent.Register<Biome> event) {
-		event.getRegistry().registerAll(elements.getBiomes().stream().map(Supplier::get).toArray(Biome[]::new));
 	}
 
 	@SubscribeEvent
@@ -122,5 +107,16 @@ public class LoydmodMod {
 	         BlockState blockstate = ((BlockItem)p_210235_1_.getItem()).getBlock().getDefaultState();
 	         return -10027009;
 	      }, DreamGrassBlockBlock.block);
+	}
+	private static class LoydmodModFMLBusEvents {
+		private final LoydmodMod parent;
+		LoydmodModFMLBusEvents(LoydmodMod parent) {
+			this.parent = parent;
+		}
+
+		@SubscribeEvent
+		public void serverLoad(FMLServerStartingEvent event) {
+			this.parent.elements.getElements().forEach(element -> element.serverLoad(event));
+		}
 	}
 }

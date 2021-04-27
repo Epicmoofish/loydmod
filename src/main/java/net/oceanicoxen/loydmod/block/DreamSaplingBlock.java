@@ -56,7 +56,9 @@ public class DreamSaplingBlock extends LoydmodModElements.ModElement {
 		 
 		   public BlockCustomFlower() {
 				super(Block.Properties.create(Material.PLANTS).tickRandomly().doesNotBlockMovement().sound(SoundType.PLANT)
-						.hardnessAndResistance(0f, 0f).lightValue(0));
+						.hardnessAndResistance(0f, 0f).setLightLevel((state) -> {
+						      return 0;
+						   }));
 				setRegistryName("dream_sapling");
 				this.setDefaultState(this.stateContainer.getBaseState().with(STAGE, Integer.valueOf(0)));
 			}
@@ -86,10 +88,10 @@ public class DreamSaplingBlock extends LoydmodModElements.ModElement {
 
 		   public void func_226942_a_(ServerWorld p_226942_1_, BlockPos p_226942_2_, BlockState p_226942_3_, Random p_226942_4_) {
 		      if (p_226942_3_.get(STAGE) == 0) {
-		         p_226942_1_.setBlockState(p_226942_2_, p_226942_3_.cycle(STAGE), 4);
+		         p_226942_1_.setBlockState(p_226942_2_, p_226942_3_.func_235896_a_(STAGE), 4);
 		      } else {
 		         if (!net.minecraftforge.event.ForgeEventFactory.saplingGrowTree(p_226942_1_, p_226942_4_, p_226942_2_)) return;
-		         new DreamTree().place(p_226942_1_, p_226942_1_.getChunkProvider().getChunkGenerator(), p_226942_2_, p_226942_3_, p_226942_4_);
+		         new DreamTree().attemptGrowTree(p_226942_1_, p_226942_1_.getChunkProvider().getChunkGenerator(), p_226942_2_, p_226942_3_, p_226942_4_);
 		      }
 
 		   }
