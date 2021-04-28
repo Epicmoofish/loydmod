@@ -258,7 +258,7 @@
       "type": "dimension",
       "sortid": 29,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "dream_dimension",
       "metadata": {
@@ -542,7 +542,7 @@
       "type": "item",
       "sortid": 52,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "tiny_needle"
     },
@@ -563,6 +563,15 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "biome_features"
+    },
+    {
+      "name": "ForceStability",
+      "type": "code",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "force_stability"
     }
   ],
   "variable_elements": [],

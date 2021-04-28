@@ -13,5 +13,6 @@
   "infiniburn": "minecraft:infiniburn_overworld",
   "min_y": 0,
   "height": 256,
-  "effects": "loydmod:dream_dimension"
+  "effects": "loydmod:dream_dimension",
+"fixed_time": 6000
 }

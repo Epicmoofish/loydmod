@@ -76,7 +76,7 @@ public class WakeFromBedProcedureProcedure extends LoydmodModElements.ModElement
 					((ServerPlayerEntity) _ent).teleport(nextWorld, _ent.getPosition().getX(), _ent.getPosition().getY(),
 							_ent.getPosition().getZ(), _ent.rotationYaw, _ent.rotationPitch);
 					for(double d0 = _ent.getPosY(); d0 > 0.0D && d0 < _ent.world.getHeight(); ++d0) {
-			            _ent.setPosition(_ent.getPosX(), d0, _ent.getPosZ());
+						((ServerPlayerEntity) _ent).teleport(nextWorld,_ent.getPosX(), d0, _ent.getPosZ(), _ent.rotationYaw, _ent.rotationPitch);
 			            if (_ent.world.hasNoCollisions(_ent)) {
 			               break;
 			            }

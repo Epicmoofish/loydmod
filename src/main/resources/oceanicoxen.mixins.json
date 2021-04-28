@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.oceanicoxen.loydmod.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "oceanicoxen.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "ForceStability"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
