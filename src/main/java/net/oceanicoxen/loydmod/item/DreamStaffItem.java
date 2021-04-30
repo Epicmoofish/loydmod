@@ -3,8 +3,6 @@ package net.oceanicoxen.loydmod.item;
 
 import java.util.Random;
 
-import com.google.common.collect.Multimap;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.entity.Entity;
@@ -12,13 +10,9 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.IRendersAsItem;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.ai.attributes.Attribute;
-import net.minecraft.entity.ai.attributes.AttributeModifier;
-import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
-import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -29,9 +23,11 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundCategory;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.Explosion;
 import net.minecraft.world.World;
+import net.minecraft.world.chunk.Chunk;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
@@ -157,13 +153,17 @@ public class DreamStaffItem extends LoydmodModElements.ModElement {
 			double x = this.getPosX();
 			double y = this.getPosY();
 			double z = this.getPosZ();
+			BlockPos pos = this.getPosition();
 			World world = this.world;
 			Entity entity = this.func_234616_v_();
 			if (this.inGround) {
 				{
-					DreamyExplosion explos=new DreamyExplosion(world,entity,x,y,z,20,false,Explosion.Mode.DESTROY);
+					final int size = 7;
+			        final int rad = size / 2;
+					DreamyExplosion explos=new DreamyExplosion(world,entity,x,y,z,10,false,Explosion.Mode.DESTROY);
 					explos.doExplosionA();
 					explos.doExplosionB(true);
+					  
 				}
 				this.remove();
 			}

@@ -572,6 +572,33 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "force_stability"
+    },
+    {
+      "name": "DreamItemsHolderGUI",
+      "type": "gui",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_items_holder_gui"
+    },
+    {
+      "name": "DreamHolder",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_holder"
+    },
+    {
+      "name": "DreamAllowed",
+      "type": "tag",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_allowed"
     }
   ],
   "variable_elements": [],
@@ -579,6 +606,7 @@
   "language_map": {
     "en_us": {
       "item.minecraft.tipped_arrow.effect.dreamy_long": "Arrow of Dreaminess",
+      "item.loydmod.dream_holder": "Dream Holder",
       "item.minecraft.lingering_potion.effect.dreamy": "Lingering Potion of Dreaminess",
       "block.loydmod.dream_wood": "Dream Wood",
       "block.loydmod.dream_log": "Dream Log",

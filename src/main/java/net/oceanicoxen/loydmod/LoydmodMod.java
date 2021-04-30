@@ -28,6 +28,7 @@ import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.GrassColors;
 import net.minecraft.world.biome.BiomeColors;
@@ -35,6 +36,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.Tags.IOptionalNamedTag;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -53,6 +55,11 @@ public class LoydmodMod {
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation("loydmod", "loydmod"),
 			() -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	public LoydmodModElements elements;
+	public static final IOptionalNamedTag<Item> DREAM_ALLOWED = tag("dream_allowed");
+	private static IOptionalNamedTag<Item> tag(String name)
+    {
+        return ItemTags.createOptional(new ResourceLocation("loydmod", name));
+    }
 	public LoydmodMod() {
 		elements = new LoydmodModElements();
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);

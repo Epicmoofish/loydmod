@@ -1,0 +1,95 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:DreamWood"
+      },
+      {
+        "value": "CUSTOM:DreamLog"
+      },
+      {
+        "value": "CUSTOM:DreamPlanks"
+      },
+      {
+        "value": "CUSTOM:DreamLeaves"
+      },
+      {
+        "value": "CUSTOM:DreamStairs"
+      },
+      {
+        "value": "CUSTOM:DreamSlab"
+      },
+      {
+        "value": "CUSTOM:DreamFence"
+      },
+      {
+        "value": "CUSTOM:DreamFenceGate"
+      },
+      {
+        "value": "CUSTOM:DreamSapling"
+      },
+      {
+        "value": "CUSTOM:DreamWood"
+      },
+      {
+        "value": "CUSTOM:DreamLog"
+      },
+      {
+        "value": "CUSTOM:DreamPlanks"
+      },
+      {
+        "value": "CUSTOM:DreamLeaves"
+      },
+      {
+        "value": "CUSTOM:DreamStairs"
+      },
+      {
+        "value": "CUSTOM:DreamSlab"
+      },
+      {
+        "value": "CUSTOM:DreamFence"
+      },
+      {
+        "value": "CUSTOM:DreamFenceGate"
+      },
+      {
+        "value": "CUSTOM:DreamSapling"
+      },
+      {
+        "value": "CUSTOM:DreamStone"
+      },
+      {
+        "value": "CUSTOM:DreamgemOre"
+      },
+      {
+        "value": "CUSTOM:DreamDirt"
+      },
+      {
+        "value": "CUSTOM:DreamGrassBlock"
+      },
+      {
+        "value": "CUSTOM:DreamCobblestone"
+      },
+      {
+        "value": "CUSTOM:Dreamgem"
+      },
+      {
+        "value": "CUSTOM:DreamgemBlock"
+      },
+      {
+        "value": "CUSTOM:DreamStaff"
+      },
+      {
+        "value": "CUSTOM:TinyNeedle"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "dream_allowed",
+    "namespace": "mod"
+  }
+}
