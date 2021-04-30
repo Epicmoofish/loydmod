@@ -22,7 +22,7 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
-arg "-mixin.config=oceanicoxen.mixins.json"
+
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
 
