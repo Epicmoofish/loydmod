@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "loydmod:dream_wood",
+    "loydmod:dream_log",
+    "loydmod:dream_planks",
+    "loydmod:dream_leaves",
+    "loydmod:dream_stairs",
+    "loydmod:dream_slab",
+    "loydmod:dream_fence",
+    "loydmod:dream_fence_gate",
+    "loydmod:dream_sapling",
+    "loydmod:dream_wood",
+    "loydmod:dream_log",
+    "loydmod:dream_planks",
+    "loydmod:dream_leaves",
+    "loydmod:dream_stairs",
+    "loydmod:dream_slab",
+    "loydmod:dream_fence",
+    "loydmod:dream_fence_gate",
+    "loydmod:dream_sapling",
+    "loydmod:dream_stone",
+    "loydmod:dreamgem_ore",
+    "loydmod:dream_dirt",
+    "loydmod:dream_grass_block",
+    "loydmod:dream_cobblestone",
+    "loydmod:dreamgem",
+    "loydmod:dreamgem_block",
+    "loydmod:dream_staff",
+    "loydmod:tiny_needle"
+  ]
+}

@@ -18,24 +18,27 @@
 */
 package net.oceanicoxen.loydmod;
 
-import java.lang.reflect.Method;
-
-import net.minecraft.item.Item;
-import net.minecraft.item.Items;
-import net.minecraft.potion.Potion;
-import net.minecraft.potion.Potions;
-import net.minecraft.world.GrassColors;
-import net.minecraft.world.biome.BiomeColors;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.client.event.ColorHandlerEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.oceanicoxen.loydmod.block.DreamGrassBlockBlock;
 import net.oceanicoxen.loydmod.potion.DreamyPotion;
+import net.oceanicoxen.loydmod.block.DreamGrassBlockBlock;
+import net.oceanicoxen.loydmod.block.DreamgemBlockBlock;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.ColorHandlerEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.biome.BiomeColors;
+import net.minecraft.world.GrassColors;
+import net.minecraft.potion.Potions;
+import net.minecraft.potion.Potion;
+import net.minecraft.item.Items;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+
+import java.lang.reflect.Method;
 
 @LoydmodModElements.ModElement.Tag
 @Mod.EventBusSubscriber(value = Dist.CLIENT, modid = "loydmod")
@@ -52,7 +55,7 @@ public class CustomBrewingRecipes extends LoydmodModElements.ModElement {
 		try {
 			Class clazz = net.minecraft.potion.PotionBrewing.class;
 			Method mth = ObfuscationReflectionHelper.findMethod(clazz, "func_193357_a", Potion.class, Item.class, Potion.class);
-			mth.invoke(null, Potions.AWKWARD, Items.DIAMOND_PICKAXE, DreamyPotion.potionType);
+			mth.invoke(null, Potions.AWKWARD, new ItemStack(DreamgemBlockBlock.block, (int) (1)).getItem(), DreamyPotion.potionType);
 			mth.invoke(null, DreamyPotion.potionType, Items.REDSTONE, DreamyPotion.potionTypeLong);
 			// To add more recipes, you can copy the line above, for ex.
 			// mth.invoke(null, potion2, item2, potion3);
@@ -60,6 +63,7 @@ public class CustomBrewingRecipes extends LoydmodModElements.ModElement {
 			System.err.println("ERROR: " + e); // You can change this part
 		}
 	}
+
 	@OnlyIn(Dist.CLIENT)
 	@SubscribeEvent
 	public void registerBlockColors(ColorHandlerEvent.Block event) {
