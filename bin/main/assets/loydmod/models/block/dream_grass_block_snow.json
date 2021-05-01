@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "loydmod:blocks/dream_dirt",
+        "bottom": "loydmod:blocks/dream_dirt",
+        "top": "loydmod:blocks/dream_grass_top",
+        "side": "loydmod:blocks/dream_grass_side"
+    }
+}

@@ -565,15 +565,6 @@
       "registry_name": "biome_features"
     },
     {
-      "name": "ForceStability",
-      "type": "code",
-      "sortid": 57,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "force_stability"
-    },
-    {
       "name": "DreamItemsHolderGUI",
       "type": "gui",
       "sortid": 58,
@@ -596,9 +587,133 @@
       "type": "tag",
       "sortid": 60,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "dream_allowed"
+    },
+    {
+      "name": "DreamBeast",
+      "type": "mob",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_beast"
+    },
+    {
+      "name": "ForceStability",
+      "type": "code",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "force_stability",
+      "path": "~/mixins"
+    },
+    {
+      "name": "DreamGemTag",
+      "type": "tag",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_gem_tag"
+    },
+    {
+      "name": "DreamgemArmorArmor",
+      "type": "armor",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamgem",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DreamgemArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamgem_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "DreamgemArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamgem_armor_armor_body_recipe"
+    },
+    {
+      "name": "DreamgemArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamgem_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "DreamgemArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamgem_armor_armor_boots_recipe"
+    },
+    {
+      "name": "DreamgemBlockRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamgem_block_recipe"
+    },
+    {
+      "name": "DreamgemRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreamgem_recipe"
+    },
+    {
+      "name": "DreamStaffRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_staff_recipe"
+    },
+    {
+      "name": "TinyNeedleRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiny_needle_recipe"
+    },
+    {
+      "name": "DreamHolderRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_holder_recipe"
     }
   ],
   "variable_elements": [],
@@ -607,10 +722,13 @@
     "en_us": {
       "item.minecraft.tipped_arrow.effect.dreamy_long": "Arrow of Dreaminess",
       "item.loydmod.dream_holder": "Dream Holder",
+      "item.loydmod.dreamgem_helmet": "Dreamgem Helmet",
       "item.minecraft.lingering_potion.effect.dreamy": "Lingering Potion of Dreaminess",
       "block.loydmod.dream_wood": "Dream Wood",
       "block.loydmod.dream_log": "Dream Log",
       "block.loydmod.dream_stone": "Dream Stone",
+      "item.loydmod.dreamgem_boots": "Dreamgem Boots",
+      "item.loydmod.dream_bot_spawn_egg": "Dream Bot Spawn Egg",
       "block.loydmod.dream_grass_block": "Dream Grass Block",
       "item.minecraft.potion.effect.dreamy_long": "Potion of Dreaminess",
       "block.loydmod.dreamgem_ore": "Dreamgem Ore",
@@ -620,8 +738,10 @@
       "block.loydmod.dream_fence": "Dream Fence",
       "biome.loydmod.dream_forest": "Dream Forest",
       "item.loydmod.dreamgem": "Dreamgem",
+      "item.loydmod.dreamgem_chestplate": "Dreamgem Chestplate",
       "block.loydmod.dream_planks": "Dream Planks",
       "item.minecraft.splash_potion.effect.dreamy_long": "Splash Potion of Dreaminess",
+      "item.loydmod.dreamgem_leggings": "Dreamgem Leggings",
       "item.minecraft.splash_potion.effect.dreamy": "Splash Potion of Dreaminess",
       "item.minecraft.tipped_arrow.effect.dreamy": "Arrow of Dreaminess",
       "item.minecraft.potion.effect.dreamy": "Potion of Dreaminess",
@@ -635,12 +755,18 @@
       "block.loydmod.dream_sapling": "Dream Sapling",
       "item.loydmod.dream_dimension": "Dream Dimension Portal Igniter",
       "block.loydmod.dream_leaves": "Dream Leaves",
+      "entity.loydmod.dream_bot": "Dream Bot",
       "item.loydmod.tiny_needle": "Tiny Needle"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "mixins",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "loydmod",

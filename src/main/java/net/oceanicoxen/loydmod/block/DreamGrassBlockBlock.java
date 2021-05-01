@@ -14,6 +14,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.entity.EntitySpawnPlacementRegistry.PlacementType;
+import net.minecraft.entity.EntityType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -68,6 +70,12 @@ public class DreamGrassBlockBlock extends LoydmodModElements.ModElement {
 			return true;
 		}
 
+		@Override
+		public boolean canCreatureSpawn(BlockState state, IBlockReader world, BlockPos pos, PlacementType type,
+				EntityType<?> entityType) {
+			// TODO Auto-generated method stub
+			return true;
+		}
 		@Override
 		public void grow(ServerWorld worldIn, Random rand, BlockPos pos, BlockState state) {
 		      BlockPos blockpos = pos.up();

@@ -1,10 +1,13 @@
 {
   "item.minecraft.tipped_arrow.effect.dreamy_long": "Arrow of Dreaminess",
   "item.loydmod.dream_holder": "Dream Holder",
+  "item.loydmod.dreamgem_helmet": "Dreamgem Helmet",
   "item.minecraft.lingering_potion.effect.dreamy": "Lingering Potion of Dreaminess",
   "block.loydmod.dream_wood": "Dream Wood",
   "block.loydmod.dream_log": "Dream Log",
   "block.loydmod.dream_stone": "Dream Stone",
+  "item.loydmod.dreamgem_boots": "Dreamgem Boots",
+  "item.loydmod.dream_bot_spawn_egg": "Dream Bot Spawn Egg",
   "block.loydmod.dream_grass_block": "Dream Grass Block",
   "item.minecraft.potion.effect.dreamy_long": "Potion of Dreaminess",
   "block.loydmod.dreamgem_ore": "Dreamgem Ore",
@@ -14,8 +17,10 @@
   "block.loydmod.dream_fence": "Dream Fence",
   "biome.loydmod.dream_forest": "Dream Forest",
   "item.loydmod.dreamgem": "Dreamgem",
+  "item.loydmod.dreamgem_chestplate": "Dreamgem Chestplate",
   "block.loydmod.dream_planks": "Dream Planks",
   "item.minecraft.splash_potion.effect.dreamy_long": "Splash Potion of Dreaminess",
+  "item.loydmod.dreamgem_leggings": "Dreamgem Leggings",
   "item.minecraft.splash_potion.effect.dreamy": "Splash Potion of Dreaminess",
   "item.minecraft.tipped_arrow.effect.dreamy": "Arrow of Dreaminess",
   "item.minecraft.potion.effect.dreamy": "Potion of Dreaminess",
@@ -29,5 +34,6 @@
   "block.loydmod.dream_sapling": "Dream Sapling",
   "item.loydmod.dream_dimension": "Dream Dimension Portal Igniter",
   "block.loydmod.dream_leaves": "Dream Leaves",
+  "entity.loydmod.dream_bot": "Dream Bot",
   "item.loydmod.tiny_needle": "Tiny Needle"
 }

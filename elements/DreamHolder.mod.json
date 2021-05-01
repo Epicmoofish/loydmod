@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "dreamgem_chestplate",
+    "texture": "dream_holder",
     "customModelName": "Normal",
     "name": "Dream Holder",
     "rarity": "COMMON",

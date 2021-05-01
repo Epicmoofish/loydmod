@@ -1,0 +1,29 @@
+{
+  "group": "loydmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "loydmod:dreamgem"
+    },
+    "1": {
+      "item": "loydmod:dreamgem"
+    },
+    "2": {
+      "item": "loydmod:dreamgem"
+    },
+    "3": {
+      "item": "loydmod:dreamgem"
+    },
+    "5": {
+      "item": "loydmod:dreamgem"
+    }
+  },
+  "result": {
+    "item": "loydmod:dreamgem_helmet",
+    "count": 1
+  }
+}

@@ -2,9 +2,9 @@
   "_fv": 18,
   "_type": "gun",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "dreamgem_shovel",
-    "customModelName": "Normal",
+    "customModelName": "dream_staff:default",
     "name": "Dream Staff",
     "specialInfo": [],
     "creativeTab": {

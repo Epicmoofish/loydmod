@@ -60,6 +60,7 @@ public class LoydmodMod {
     {
         return ItemTags.createOptional(new ResourceLocation("loydmod", name));
     }
+	public static final IOptionalNamedTag<Item> DREAMGEM = tag("dreamgem");
 	public LoydmodMod() {
 		elements = new LoydmodModElements();
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);

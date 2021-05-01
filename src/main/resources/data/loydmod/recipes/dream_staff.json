@@ -1,0 +1,36 @@
+{
+  "group": "loydmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_brick_fence"
+    },
+    "1": {
+      "item": "loydmod:dreamgem_block"
+    },
+    "2": {
+      "item": "minecraft:nether_brick_fence"
+    },
+    "3": {
+      "item": "minecraft:nether_brick"
+    },
+    "4": {
+      "item": "minecraft:nether_bricks"
+    },
+    "5": {
+      "item": "minecraft:nether_brick"
+    },
+    "7": {
+      "item": "minecraft:nether_bricks"
+    }
+  },
+  "result": {
+    "item": "loydmod:dream_staff",
+    "count": 1
+  }
+}

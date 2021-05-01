@@ -65,7 +65,7 @@ public class DreamStaffItem extends LoydmodModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(100));
+			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(1000));
 			setRegistryName("dream_staff");
 		}
 
@@ -160,7 +160,7 @@ public class DreamStaffItem extends LoydmodModElements.ModElement {
 				{
 					final int size = 7;
 			        final int rad = size / 2;
-					DreamyExplosion explos=new DreamyExplosion(world,entity,x,y,z,10,false,Explosion.Mode.DESTROY);
+					DreamyExplosion explos=new DreamyExplosion(world,entity,x,y,z,5,false,Explosion.Mode.DESTROY);
 					explos.doExplosionA();
 					explos.doExplosionB(true);
 					  

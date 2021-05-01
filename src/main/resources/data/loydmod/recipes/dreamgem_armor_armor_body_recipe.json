@@ -1,0 +1,39 @@
+{
+  "group": "loydmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "loydmod:dreamgem"
+    },
+    "2": {
+      "item": "loydmod:dreamgem"
+    },
+    "3": {
+      "item": "loydmod:dreamgem"
+    },
+    "4": {
+      "item": "loydmod:dreamgem"
+    },
+    "5": {
+      "item": "loydmod:dreamgem"
+    },
+    "6": {
+      "item": "loydmod:dreamgem"
+    },
+    "7": {
+      "item": "loydmod:dreamgem"
+    },
+    "8": {
+      "item": "loydmod:dreamgem"
+    }
+  },
+  "result": {
+    "item": "loydmod:dreamgem_chestplate",
+    "count": 1
+  }
+}

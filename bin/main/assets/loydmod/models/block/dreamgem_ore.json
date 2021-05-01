@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "loydmod:blocks/dreamgem_ore",
+    "up": "loydmod:blocks/dreamgem_ore",
+    "north": "loydmod:blocks/dreamgem_ore",
+    "east": "loydmod:blocks/dreamgem_ore",
+    "south": "loydmod:blocks/dreamgem_ore",
+    "west": "loydmod:blocks/dreamgem_ore",
+    "particle": "loydmod:blocks/dreamgem_ore"
+  }
+}

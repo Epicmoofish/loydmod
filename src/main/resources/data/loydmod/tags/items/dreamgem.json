@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "loydmod:dreamgem_ore",
+    "loydmod:dreamgem",
+    "loydmod:dreamgem_block",
+    "loydmod:dreamgem_helmet",
+    "loydmod:dreamgem_chestplate",
+    "loydmod:dreamgem_leggings",
+    "loydmod:dreamgem_boots"
+  ]
+}

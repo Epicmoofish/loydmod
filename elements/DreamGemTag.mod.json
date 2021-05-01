@@ -1,0 +1,35 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:DreamgemArmorArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:DreamgemArmorArmor.body"
+      },
+      {
+        "value": "CUSTOM:DreamgemArmorArmor.legs"
+      },
+      {
+        "value": "CUSTOM:DreamgemArmorArmor.boots"
+      },
+      {
+        "value": "CUSTOM:DreamgemOre"
+      },
+      {
+        "value": "CUSTOM:Dreamgem"
+      },
+      {
+        "value": "CUSTOM:DreamgemBlock"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "dreamgem",
+    "namespace": "mod"
+  }
+}

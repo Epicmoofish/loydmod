@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "dream_staff_texture"
+      },
+      "name": "default"
+    }
+  }
+}

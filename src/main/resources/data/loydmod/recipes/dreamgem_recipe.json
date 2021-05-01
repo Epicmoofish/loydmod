@@ -1,0 +1,13 @@
+{
+  "group": "loydmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "loydmod:dreamgem_block"
+    }
+  ],
+  "result": {
+    "item": "loydmod:dreamgem",
+    "count": 9
+  }
+}
