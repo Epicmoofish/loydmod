@@ -8,7 +8,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_wood"
+      "registry_name": "dream_wood",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamLog",
@@ -17,7 +18,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_log"
+      "registry_name": "dream_log",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamPlanks",
@@ -26,7 +28,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_planks"
+      "registry_name": "dream_planks",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamLeaves",
@@ -35,7 +38,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_leaves"
+      "registry_name": "dream_leaves",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamStairs",
@@ -44,7 +48,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_stairs"
+      "registry_name": "dream_stairs",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamSlab",
@@ -53,7 +58,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_slab"
+      "registry_name": "dream_slab",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamFence",
@@ -62,7 +68,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_fence"
+      "registry_name": "dream_fence",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamFenceGate",
@@ -71,7 +78,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_fence_gate"
+      "registry_name": "dream_fence_gate",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamItemsTag",
@@ -80,7 +88,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_items_tag"
+      "registry_name": "dream_items_tag",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamWoodRecipe",
@@ -89,7 +98,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_wood_recipe"
+      "registry_name": "dream_wood_recipe",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamPlanksRecipe",
@@ -98,7 +108,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_planks_recipe"
+      "registry_name": "dream_planks_recipe",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamStairsRecipe",
@@ -107,7 +118,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_stairs_recipe"
+      "registry_name": "dream_stairs_recipe",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamSlabRecipe",
@@ -116,7 +128,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_slab_recipe"
+      "registry_name": "dream_slab_recipe",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamFenceRecipe",
@@ -125,7 +138,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_fence_recipe"
+      "registry_name": "dream_fence_recipe",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamFenceGateRecipe",
@@ -134,7 +148,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_fence_gate_recipe"
+      "registry_name": "dream_fence_gate_recipe",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamStickRecipe",
@@ -143,7 +158,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_stick_recipe"
+      "registry_name": "dream_stick_recipe",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamWoodLootTable",
@@ -152,7 +168,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_wood_loot_table"
+      "registry_name": "dream_wood_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamLogLootTable",
@@ -161,7 +178,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_log_loot_table"
+      "registry_name": "dream_log_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamPlanksLootTable",
@@ -170,7 +188,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_planks_loot_table"
+      "registry_name": "dream_planks_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamStairsLootTable",
@@ -179,7 +198,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_stairs_loot_table"
+      "registry_name": "dream_stairs_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamSlabLootTable",
@@ -188,7 +208,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_slab_loot_table"
+      "registry_name": "dream_slab_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamFenceLootTable",
@@ -197,7 +218,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_fence_loot_table"
+      "registry_name": "dream_fence_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamFenceGateLootTable",
@@ -206,7 +228,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_fence_gate_loot_table"
+      "registry_name": "dream_fence_gate_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamSapling",
@@ -215,7 +238,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_sapling"
+      "registry_name": "dream_sapling",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "LeavesTag",
@@ -224,7 +248,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "leaves"
+      "registry_name": "leaves",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "LogsTag",
@@ -233,7 +258,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "logs_tag"
+      "registry_name": "logs_tag",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamForest",
@@ -242,7 +268,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_forest"
+      "registry_name": "dream_forest",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamPlains",
@@ -251,7 +278,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_plains"
+      "registry_name": "dream_plains",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamDimension",
@@ -263,7 +291,8 @@
       "registry_name": "dream_dimension",
       "metadata": {
         "ep": false
-      }
+      },
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamSaplingLootTable",
@@ -272,7 +301,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_sapling_loot_table"
+      "registry_name": "dream_sapling_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamLeavesLootTable",
@@ -281,7 +311,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_leaves_loot_table"
+      "registry_name": "dream_leaves_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamStone",
@@ -290,7 +321,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dream_stone"
+      "registry_name": "dream_stone",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamgemOre",
@@ -299,7 +331,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dreamgem_ore"
+      "registry_name": "dreamgem_ore",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamyOnPotionActiveTick",
@@ -332,7 +365,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "Dreamy",
@@ -341,7 +375,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dreamy"
+      "registry_name": "dreamy",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "CustomBrewingRecipes",
@@ -350,16 +385,18 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "custom_brewing_recipes"
+      "registry_name": "custom_brewing_recipes",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamDirt",
       "type": "block",
       "sortid": 36,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
-      "registry_name": "dream_dirt"
+      "registry_name": "dream_dirt",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamGrassBlock",
@@ -368,7 +405,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_grass_block"
+      "registry_name": "dream_grass_block",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamTree",
@@ -377,7 +415,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_tree"
+      "registry_name": "dream_tree",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamLogTag",
@@ -386,7 +425,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dream_log_tag"
+      "registry_name": "dream_log_tag",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamCobblestone",
@@ -395,7 +435,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dream_cobblestone"
+      "registry_name": "dream_cobblestone",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamStoneLootTable",
@@ -404,7 +445,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_stone_loot_table"
+      "registry_name": "dream_stone_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamCobblestoneLootTable",
@@ -413,7 +455,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_cobblestone_loot_table"
+      "registry_name": "dream_cobblestone_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamDirtLootTable",
@@ -422,7 +465,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dream_dirt_loot_table"
+      "registry_name": "dream_dirt_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamGrassBlockLootTable",
@@ -431,7 +475,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dream_grass_block_loot_table"
+      "registry_name": "dream_grass_block_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamgemOreLootTable",
@@ -440,7 +485,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dreamgem_ore_loot_table"
+      "registry_name": "dreamgem_ore_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "Dreamgem",
@@ -449,7 +495,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dreamgem"
+      "registry_name": "dreamgem",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamgemBlock",
@@ -458,7 +505,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dreamgem_block"
+      "registry_name": "dreamgem_block",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamgemBlockLootTable",
@@ -467,7 +515,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dreamgem_block_loot_table"
+      "registry_name": "dreamgem_block_loot_table",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "WakeFromBedProcedure",
@@ -488,7 +537,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamifyBlocks",
@@ -500,7 +550,8 @@
       "registry_name": "dreamify_blocks",
       "metadata": {
         "dependencies": []
-      }
+      },
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamyExplosion",
@@ -509,7 +560,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dreamy_explosion"
+      "registry_name": "dreamy_explosion",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamStaff",
@@ -518,7 +570,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_staff"
+      "registry_name": "dream_staff",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "TeleportBackToOverworld",
@@ -535,7 +588,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "TinyNeedle",
@@ -544,7 +598,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "tiny_needle"
+      "registry_name": "tiny_needle",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "Dirts",
@@ -553,7 +608,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dirts"
+      "registry_name": "dirts",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "BiomeFeatures",
@@ -562,7 +618,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "biome_features"
+      "registry_name": "biome_features",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamItemsHolderGUI",
@@ -571,7 +628,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_items_holder_gui"
+      "registry_name": "dream_items_holder_gui",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamHolder",
@@ -580,7 +638,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dream_holder"
+      "registry_name": "dream_holder",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamAllowed",
@@ -589,7 +648,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_allowed"
+      "registry_name": "dream_allowed",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamBeast",
@@ -598,17 +658,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_beast"
-    },
-    {
-      "name": "ForceStability",
-      "type": "code",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "force_stability",
-      "path": "~/mixins"
+      "registry_name": "dream_beast",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamGemTag",
@@ -617,7 +668,8 @@
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "dream_gem_tag"
+      "registry_name": "dream_gem_tag",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamgemArmorArmor",
@@ -632,88 +684,178 @@
         "el": true,
         "eb": true,
         "ec": true
-      }
-    },
-    {
-      "name": "DreamgemArmorArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dreamgem_armor_armor_helmet_recipe"
-    },
-    {
-      "name": "DreamgemArmorArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dreamgem_armor_armor_body_recipe"
-    },
-    {
-      "name": "DreamgemArmorArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dreamgem_armor_armor_leggings_recipe"
-    },
-    {
-      "name": "DreamgemArmorArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dreamgem_armor_armor_boots_recipe"
+      },
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamgemBlockRecipe",
       "type": "recipe",
       "sortid": 69,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
-      "registry_name": "dreamgem_block_recipe"
+      "registry_name": "dreamgem_block_recipe",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamgemRecipe",
       "type": "recipe",
       "sortid": 70,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
-      "registry_name": "dreamgem_recipe"
+      "registry_name": "dreamgem_recipe",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamStaffRecipe",
       "type": "recipe",
       "sortid": 71,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
-      "registry_name": "dream_staff_recipe"
+      "registry_name": "dream_staff_recipe",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "TinyNeedleRecipe",
       "type": "recipe",
       "sortid": 72,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
-      "registry_name": "tiny_needle_recipe"
+      "registry_name": "tiny_needle_recipe",
+      "path": "~/DreamDimensionStuff"
     },
     {
       "name": "DreamHolderRecipe",
       "type": "recipe",
       "sortid": 73,
       "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_holder_recipe",
+      "path": "~/DreamDimensionStuff"
+    },
+    {
+      "name": "PlanksTag",
+      "type": "tag",
+      "sortid": 74,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dream_holder_recipe"
+      "registry_name": "planks_tag",
+      "path": "~/DreamDimensionStuff"
+    },
+    {
+      "name": "StoneToolsTag",
+      "type": "tag",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_tools_tag",
+      "path": "~/DreamDimensionStuff"
+    },
+    {
+      "name": "DreamgemHelmetRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dreamgem_helmet_recipe",
+      "path": "~/DreamDimensionStuff"
+    },
+    {
+      "name": "DreamgemChestplate",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dreamgem_chestplate",
+      "path": "~/DreamDimensionStuff"
+    },
+    {
+      "name": "DreamgemLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dreamgem_leggings_recipe",
+      "path": "~/DreamDimensionStuff"
+    },
+    {
+      "name": "DreamgemBootsRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dreamgem_boots_recipe",
+      "path": "~/DreamDimensionStuff"
+    },
+    {
+      "name": "DreamBotComponents",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "robot_components",
+      "path": "~/DreamDimensionStuff"
+    },
+    {
+      "name": "DreamBotLootTable",
+      "type": "loottable",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_bot_loot_table",
+      "path": "~/DreamDimensionStuff"
+    },
+    {
+      "name": "ForceStability",
+      "type": "code",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "force_stability",
+      "path": "~/mixins"
+    },
+    {
+      "name": "NightmareCreature",
+      "type": "mob",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmare_creature",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "NightmareForest",
+      "type": "biome",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmare_forest",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "NightmarePlains",
+      "type": "biome",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmare_plains",
+      "path": "~/NightmareDimensionStuff"
     }
   ],
   "variable_elements": [],
@@ -724,15 +866,19 @@
       "item.loydmod.dream_holder": "Dream Holder",
       "item.loydmod.dreamgem_helmet": "Dreamgem Helmet",
       "item.minecraft.lingering_potion.effect.dreamy": "Lingering Potion of Dreaminess",
+      "biome.loydmod.nightmare_forest": "Dream Forest",
       "block.loydmod.dream_wood": "Dream Wood",
       "block.loydmod.dream_log": "Dream Log",
       "block.loydmod.dream_stone": "Dream Stone",
       "item.loydmod.dreamgem_boots": "Dreamgem Boots",
+      "entity.loydmod.nightmare_creature": "Nightmare Creature",
       "item.loydmod.dream_bot_spawn_egg": "Dream Bot Spawn Egg",
       "block.loydmod.dream_grass_block": "Dream Grass Block",
+      "item.loydmod.nightmare_creature_spawn_egg": "Nightmare Creature Spawn Egg",
       "item.minecraft.potion.effect.dreamy_long": "Potion of Dreaminess",
       "block.loydmod.dreamgem_ore": "Dreamgem Ore",
       "block.loydmod.dream_dirt": "Dream Dirt",
+      "item.loydmod.robot_components": "Robot Components",
       "effect.dreamy": "Dreamy",
       "block.loydmod.dream_slab": "Dream Slab",
       "block.loydmod.dream_fence": "Dream Fence",
@@ -756,7 +902,8 @@
       "item.loydmod.dream_dimension": "Dream Dimension Portal Igniter",
       "block.loydmod.dream_leaves": "Dream Leaves",
       "entity.loydmod.dream_bot": "Dream Bot",
-      "item.loydmod.tiny_needle": "Tiny Needle"
+      "item.loydmod.tiny_needle": "Tiny Needle",
+      "biome.loydmod.nightmare_plains": "Dream Plains"
     }
   },
   "foldersRoot": {
@@ -764,6 +911,14 @@
     "children": [
       {
         "name": "mixins",
+        "children": []
+      },
+      {
+        "name": "DreamDimensionStuff",
+        "children": []
+      },
+      {
+        "name": "NightmareDimensionStuff",
         "children": []
       }
     ]

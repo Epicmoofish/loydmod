@@ -3,15 +3,19 @@
   "item.loydmod.dream_holder": "Dream Holder",
   "item.loydmod.dreamgem_helmet": "Dreamgem Helmet",
   "item.minecraft.lingering_potion.effect.dreamy": "Lingering Potion of Dreaminess",
+  "biome.loydmod.nightmare_forest": "Dream Forest",
   "block.loydmod.dream_wood": "Dream Wood",
   "block.loydmod.dream_log": "Dream Log",
   "block.loydmod.dream_stone": "Dream Stone",
   "item.loydmod.dreamgem_boots": "Dreamgem Boots",
+  "entity.loydmod.nightmare_creature": "Nightmare Creature",
   "item.loydmod.dream_bot_spawn_egg": "Dream Bot Spawn Egg",
   "block.loydmod.dream_grass_block": "Dream Grass Block",
+  "item.loydmod.nightmare_creature_spawn_egg": "Nightmare Creature Spawn Egg",
   "item.minecraft.potion.effect.dreamy_long": "Potion of Dreaminess",
   "block.loydmod.dreamgem_ore": "Dreamgem Ore",
   "block.loydmod.dream_dirt": "Dream Dirt",
+  "item.loydmod.robot_components": "Robot Components",
   "effect.dreamy": "Dreamy",
   "block.loydmod.dream_slab": "Dream Slab",
   "block.loydmod.dream_fence": "Dream Fence",
@@ -35,5 +39,6 @@
   "item.loydmod.dream_dimension": "Dream Dimension Portal Igniter",
   "block.loydmod.dream_leaves": "Dream Leaves",
   "entity.loydmod.dream_bot": "Dream Bot",
-  "item.loydmod.tiny_needle": "Tiny Needle"
+  "item.loydmod.tiny_needle": "Tiny Needle",
+  "biome.loydmod.nightmare_plains": "Dream Plains"
 }

@@ -1,10 +1,9 @@
 {
-  "group": "loydmod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "3 5",
-    "6 8"
+    "0 2",
+    "315",
+    "133"
   ],
   "key": {
     "0": {
@@ -21,16 +20,10 @@
     },
     "5": {
       "item": "loydmod:dreamgem"
-    },
-    "6": {
-      "item": "loydmod:dreamgem"
-    },
-    "8": {
-      "item": "loydmod:dreamgem"
     }
   },
   "result": {
-    "item": "loydmod:dreamgem_leggings",
+    "item": "loydmod:dreamgem_chestplate",
     "count": 1
   }
 }

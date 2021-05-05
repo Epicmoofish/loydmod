@@ -13,6 +13,15 @@
         "value": "CUSTOM:Dreamgem"
       },
       {
+        "value": "CUSTOM:Dreamgem"
+      },
+      {
+        "value": "CUSTOM:Dreamgem"
+      },
+      {
+        "value": "CUSTOM:Dreamgem"
+      },
+      {
         "value": ""
       },
       {
@@ -22,25 +31,16 @@
         "value": "CUSTOM:Dreamgem"
       },
       {
-        "value": "CUSTOM:Dreamgem"
-      },
-      {
-        "value": "CUSTOM:Dreamgem"
-      },
-      {
-        "value": "CUSTOM:Dreamgem"
-      },
-      {
-        "value": "CUSTOM:Dreamgem"
+        "value": ""
       },
       {
         "value": "CUSTOM:Dreamgem"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DreamgemArmorArmor.body"
+      "value": "CUSTOM:DreamgemArmorArmor.helmet"
     },
-    "name": "dreamgem_armor_armor_body_recipe",
+    "name": "dreamgem_helmet",
     "namespace": "mod"
   }
 }

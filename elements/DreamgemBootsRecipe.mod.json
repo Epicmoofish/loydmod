@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Dreamgem"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Dreamgem"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Dreamgem"
       },
       {
         "value": "CUSTOM:Dreamgem"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DreamgemArmorArmor.boots"
+      "value": "CUSTOM:DreamgemArmorArmor.helmet"
     },
-    "name": "dreamgem_armor_armor_boots_recipe",
+    "name": "dreamgem_boots_recipe",
     "namespace": "mod"
   }
 }
