@@ -1,0 +1,129 @@
+{
+  "_fv": 18,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "creative_dreamer.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "LucidDreamType"
+          },
+          "name": "creative_dreamer.png",
+          "x": 296,
+          "y": 2
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dream Type: Lucid Dream",
+          "color": {
+            "value": -3355648,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "LucidDreamType"
+          },
+          "name": "Dream Type: Lucid Dream",
+          "x": 310,
+          "y": 5
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dream Type: Nightmare",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "NightmareDreamType"
+          },
+          "name": "Dream Type: Nightmare",
+          "x": 320,
+          "y": 5
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "No dream type set",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "NoDreamType"
+          },
+          "name": "No dream type set",
+          "x": 339,
+          "y": 5
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "creative_dreamer.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "NoDreamType"
+          },
+          "name": "creative_dreamer.png",
+          "x": 321,
+          "y": 2
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dream Type: Good Dream",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "GoodDreamType"
+          },
+          "name": "Dream Type: Good Dream",
+          "x": 316,
+          "y": 5
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "creative_dreamer.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "GoodDreamType"
+          },
+          "name": "creative_dreamer.png",
+          "x": 298,
+          "y": 2
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "creative_dreamer.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "NightmareDreamType"
+          },
+          "name": "creative_dreamer.png",
+          "x": 299,
+          "y": 2
+        }
+      }
+    ],
+    "baseTexture": "",
+    "displayCondition": {
+      "name": "ShowWhichOverlay"
+    }
+  }
+}

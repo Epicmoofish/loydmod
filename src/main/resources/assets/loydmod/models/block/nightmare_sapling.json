@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "loydmod:blocks/nightmare_sapling",
+    "particle": "loydmod:blocks/nightmare_sapling"
+  }
+}

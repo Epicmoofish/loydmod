@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "loydmod:dream_log"
+   "loydmod:dream_wood",
+    "loydmod:dream_log",
+"loydmod:nightmare_wood",
+    "loydmod:nightmare_log"
   ]
 }

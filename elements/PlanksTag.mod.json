@@ -6,6 +6,9 @@
     "items": [
       {
         "value": "CUSTOM:DreamPlanks"
+      },
+      {
+        "value": "CUSTOM:NightmarishPlanks"
       }
     ],
     "blocks": [],

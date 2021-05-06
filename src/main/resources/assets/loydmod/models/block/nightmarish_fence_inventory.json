@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "loydmod:blocks/nightmare_planks",
+    "particle": "loydmod:blocks/nightmare_planks"
+  }
+}

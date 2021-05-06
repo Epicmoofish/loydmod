@@ -1,0 +1,33 @@
+{
+  "group": "loydmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "loydmod:nightmarish_planks"
+    },
+    "3": {
+      "item": "loydmod:nightmarish_planks"
+    },
+    "4": {
+      "item": "loydmod:nightmarish_planks"
+    },
+    "6": {
+      "item": "loydmod:nightmarish_planks"
+    },
+    "7": {
+      "item": "loydmod:nightmarish_planks"
+    },
+    "8": {
+      "item": "loydmod:nightmarish_planks"
+    }
+  },
+  "result": {
+    "item": "loydmod:nightmarish_stairs",
+    "count": 4
+  }
+}

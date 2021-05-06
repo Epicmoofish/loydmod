@@ -60,7 +60,7 @@ public class NightmareForestBiome extends LoydmodModElements.ModElement {
 				 BiomeGenerationSettings.Builder biomegenerationsettings$builder = (new BiomeGenerationSettings.Builder()).withSurfaceBuilder(
 							SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(DreamGrassBlockBlock.block.getDefaultState(),
 									 DreamDirtBlock.block.getDefaultState(), DreamDirtBlock.block.getDefaultState())));
-			      BiomeFeatures.withDreamTrees(biomegenerationsettings$builder); 
+			      BiomeFeatures.withNightmareTrees(biomegenerationsettings$builder); 
 			      DefaultBiomeFeatures.withAllForestFlowerGeneration(biomegenerationsettings$builder);
 			      DefaultBiomeFeatures.withCavesAndCanyons(biomegenerationsettings$builder);
 

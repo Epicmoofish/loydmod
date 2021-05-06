@@ -1,0 +1,13 @@
+{
+  "group": "loydmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:nightmarish_log"
+    }
+  ],
+  "result": {
+    "item": "loydmod:nightmarish_planks",
+    "count": 4
+  }
+}

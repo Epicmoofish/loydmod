@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "loydmod:block/nightmarish_slab"
+    },
+    "type=top": {
+      "model": "loydmod:block/nightmarish_slab_top"
+    },
+    "type=double": {
+      "model": "loydmod:block/nightmarish_slab_full"
+    }
+  }
+}

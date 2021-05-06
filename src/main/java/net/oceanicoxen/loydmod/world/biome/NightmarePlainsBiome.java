@@ -54,7 +54,7 @@ public class NightmarePlainsBiome extends LoydmodModElements.ModElement {
 									 DreamDirtBlock.block.getDefaultState(), DreamDirtBlock.block.getDefaultState())));
 				 
 //			      biomegenerationsettings$builder.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_SELECTOR.withConfiguration(new MultipleRandomFeatureConfig(ImmutableList.of(FANCY_BEE_HIVE.withChance(0.33333334F)), NORMAL_BEE_HIVE)).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.05F, 1))));
-			     BiomeFeatures.withDreamTreesScarce(biomegenerationsettings$builder); 
+			     BiomeFeatures.withNightmareTreesScarce(biomegenerationsettings$builder); 
 				 DefaultBiomeFeatures.withNormalGrassPatch(biomegenerationsettings$builder);
 			      DefaultBiomeFeatures.withDefaultFlowers(biomegenerationsettings$builder);
 			      DefaultBiomeFeatures.withCavesAndCanyons(biomegenerationsettings$builder);

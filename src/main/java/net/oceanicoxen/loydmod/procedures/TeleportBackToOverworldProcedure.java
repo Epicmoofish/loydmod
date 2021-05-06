@@ -35,8 +35,10 @@ public class TeleportBackToOverworldProcedure extends LoydmodModElements.ModElem
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		RegistryKey<World> destinationType2 = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("loydmod:dream_dimension"));
-		if (entity.world.getDimensionKey()==destinationType2) {
+		RegistryKey<World> gooddream = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("loydmod:dream_dimension"));
+		RegistryKey<World> nightmare = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("loydmod:nightmare_dimension"));
+		
+		if (entity.world.getDimensionKey()==gooddream || entity.world.getDimensionKey()==nightmare) {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {

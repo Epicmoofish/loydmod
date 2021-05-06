@@ -56,11 +56,12 @@ public class LoydmodMod {
 			() -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	public LoydmodModElements elements;
 	public static final IOptionalNamedTag<Item> DREAM_ALLOWED = tag("dream_allowed");
+	public static final IOptionalNamedTag<Item> DREAMGEM = tag("dreamgem");
+	public static final IOptionalNamedTag<Item> HOLDER = tag("holder");
 	private static IOptionalNamedTag<Item> tag(String name)
     {
         return ItemTags.createOptional(new ResourceLocation("loydmod", name));
     }
-	public static final IOptionalNamedTag<Item> DREAMGEM = tag("dreamgem");
 	public LoydmodMod() {
 		elements = new LoydmodModElements();
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
