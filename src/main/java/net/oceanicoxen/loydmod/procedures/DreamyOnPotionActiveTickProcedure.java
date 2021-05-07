@@ -65,7 +65,7 @@ public class DreamyOnPotionActiveTickProcedure extends LoydmodModElements.ModEle
 					}.compareDistOf(x, y, z)).collect(Collectors.toList());
 			for (Entity entityiterator : _entfound) {
 				if ((entityiterator instanceof TameableEntity)) {
-					if ((entity == ((entity instanceof TameableEntity) ? ((TameableEntity) entity).getOwner() : null))) {
+					if ((entity == ((entityiterator instanceof TameableEntity) ? ((TameableEntity) entityiterator).getOwner() : null))) {
 						if (entityiterator instanceof LivingEntity)
 							((LivingEntity) entityiterator)
 									.addPotionEffect(new EffectInstance(DreamEnhancedPotion.potion, (int) 10, (int) 1, (true), (false)));

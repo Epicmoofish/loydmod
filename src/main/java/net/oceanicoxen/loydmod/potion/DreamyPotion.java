@@ -45,14 +45,14 @@ public class DreamyPotion extends LoydmodModElements.ModElement {
 	}
 	public static class PotionCustom extends Potion {
 		public PotionCustom() {
-			super(new EffectInstance(potion, 3600));
+			super(new EffectInstance(potion, 1200));
 			setRegistryName("dreamy");
 		}
 	}
 
 	public static class LongPotionCustom extends Potion {
 		public LongPotionCustom() {
-			super(new EffectInstance(potion, 7200));
+			super(new EffectInstance(potion, 2400));
 			setRegistryName("dreamy_long");
 		}
 	}

@@ -339,7 +339,7 @@
       "type": "procedure",
       "sortid": 34,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "dreamy_on_potion_active_tick",
       "metadata": {
@@ -1386,8 +1386,8 @@
       "item.loydmod.dreamgem_helmet": "Dreamgem Helmet",
       "item.minecraft.lingering_potion.effect.dreamy": "Lingering Potion of Dreaminess",
       "effect.dream_enhanced": "Dream Enhanced",
-      "biome.loydmod.nightmare_forest": "Nightmare Forest",
       "item.minecraft.lingering_potion.effect.dream_enhanced": "Lingering Dream Enhanced",
+      "biome.loydmod.nightmare_forest": "Nightmare Forest",
       "block.loydmod.dream_wood": "Dream Wood",
       "block.loydmod.dream_log": "Dream Log",
       "block.loydmod.nightmare_log": "Nightmare Log",

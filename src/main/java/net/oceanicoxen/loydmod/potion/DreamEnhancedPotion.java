@@ -26,9 +26,7 @@ public class DreamEnhancedPotion extends LoydmodModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerEffect(RegistryEvent.Register<Effect> event) {
-		event.getRegistry().register(new EffectCustom().addAttributesModifier(Attributes.ATTACK_DAMAGE, "32653B89-116E-49DC-9B6B-9971489B5BE5", 50.0D, AttributeModifier.Operation.ADDITION));
-		event.getRegistry().register(new EffectCustom().addAttributesModifier(Attributes.MOVEMENT_SPEED, "34653B89-116E-49DC-9B6B-9971489B5BE5", 0.3D, AttributeModifier.Operation.MULTIPLY_TOTAL));
-		
+		event.getRegistry().register(new EffectCustom().addAttributesModifier(Attributes.ATTACK_DAMAGE, "32653B89-116E-49DC-9B6B-9971489B5BE5", 50.0D, AttributeModifier.Operation.ADDITION).addAttributesModifier(Attributes.MOVEMENT_SPEED, "34653B89-116E-49DC-9B6B-9971489B5BE5", 0.3D, AttributeModifier.Operation.MULTIPLY_TOTAL));
 	}
 	public static class EffectCustom extends Effect {
 		private final ResourceLocation potionIcon;
