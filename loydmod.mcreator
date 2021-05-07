@@ -1359,6 +1359,16 @@
       "ids": {},
       "registry_name": "nightmarish_ore_smelting",
       "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "DreamEnhanced",
+      "type": "potion",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_enhanced",
+      "path": "~/DreamDimensionStuff"
     }
   ],
   "variable_elements": [
@@ -1375,7 +1385,9 @@
       "item.loydmod.dream_holder": "Dream Holder",
       "item.loydmod.dreamgem_helmet": "Dreamgem Helmet",
       "item.minecraft.lingering_potion.effect.dreamy": "Lingering Potion of Dreaminess",
+      "effect.dream_enhanced": "Dream Enhanced",
       "biome.loydmod.nightmare_forest": "Nightmare Forest",
+      "item.minecraft.lingering_potion.effect.dream_enhanced": "Lingering Dream Enhanced",
       "block.loydmod.dream_wood": "Dream Wood",
       "block.loydmod.dream_log": "Dream Log",
       "block.loydmod.nightmare_log": "Nightmare Log",
@@ -1410,6 +1422,7 @@
       "item.loydmod.creative_dreamer": "Creative Dreamer",
       "block.loydmod.dream_grass_block": "Dream Grass Block",
       "item.loydmod.nightmare_creature_spawn_egg": "Nightmare Creature Spawn Egg",
+      "item.minecraft.splash_potion.effect.dream_enhanced": "Splash Dream Enhanced",
       "block.loydmod.dreamgem_ore": "Dreamgem Ore",
       "block.loydmod.dream_dirt": "Dream Dirt",
       "item.loydmod.robot_components": "Robot Components",
@@ -1427,10 +1440,12 @@
       "block.loydmod.dream_planks": "Dream Planks",
       "block.loydmod.nightmare_wood": "Nightmare Wood",
       "item.loydmod.nightmarish_ingot": "Ingot Of Nightmares",
+      "item.minecraft.tipped_arrow.effect.dream_enhanced": "Arrow of Dream Enhanced",
       "biome.loydmod.dream_plains": "Dream Plains",
       "block.loydmod.dream_stairs": "Dream Stairs",
       "block.loydmod.dreamgem_block": "Block of Dreamgem",
       "block.loydmod.dream_cobblestone": "Dream Cobblestone",
+      "item.minecraft.potion.effect.dream_enhanced": "Dream Enhanced",
       "item.loydmod.dream_staff": "Dream Staff",
       "item.loydmod.dream_dimension": "Dream Dimension Portal Igniter",
       "block.loydmod.dream_leaves": "Dream Leaves",

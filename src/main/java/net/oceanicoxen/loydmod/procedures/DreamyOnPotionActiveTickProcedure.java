@@ -1,14 +1,15 @@
 package net.oceanicoxen.loydmod.procedures;
 
+import net.oceanicoxen.loydmod.potion.DreamEnhancedPotion;
 import net.oceanicoxen.loydmod.LoydmodModElements;
 import net.oceanicoxen.loydmod.LoydmodMod;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.AxisAlignedBB;
-import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.passive.TameableEntity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.AgeableEntity;
 
 import java.util.stream.Collectors;
 import java.util.function.Function;
@@ -56,17 +57,18 @@ public class DreamyOnPotionActiveTickProcedure extends LoydmodModElements.ModEle
 		{
 			List<Entity> _entfound = world
 					.getEntitiesWithinAABB(Entity.class,
-							new AxisAlignedBB(x - (4 / 2d), y - (4 / 2d), z - (4 / 2d), x + (4 / 2d), y + (4 / 2d), z + (4 / 2d)), null)
+							new AxisAlignedBB(x - (15 / 2d), y - (15 / 2d), z - (15 / 2d), x + (15 / 2d), y + (15 / 2d), z + (15 / 2d)), null)
 					.stream().sorted(new Object() {
 						Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 							return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 						}
 					}.compareDistOf(x, y, z)).collect(Collectors.toList());
 			for (Entity entityiterator : _entfound) {
-				if ((entityiterator instanceof AgeableEntity)) {
-					if ((entityiterator instanceof TameableEntity) && (entity instanceof PlayerEntity)) {
-						((TameableEntity) entityiterator).setTamed(true);
-						((TameableEntity) entityiterator).setTamedBy((PlayerEntity) entity);
+				if ((entityiterator instanceof TameableEntity)) {
+					if ((entity == ((entity instanceof TameableEntity) ? ((TameableEntity) entity).getOwner() : null))) {
+						if (entityiterator instanceof LivingEntity)
+							((LivingEntity) entityiterator)
+									.addPotionEffect(new EffectInstance(DreamEnhancedPotion.potion, (int) 10, (int) 1, (true), (false)));
 					}
 				}
 			}
