@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "loydmod:blocks/nightmarish_block",
+    "up": "loydmod:blocks/nightmarish_block",
+    "north": "loydmod:blocks/nightmarish_block",
+    "east": "loydmod:blocks/nightmarish_block",
+    "south": "loydmod:blocks/nightmarish_block",
+    "west": "loydmod:blocks/nightmarish_block",
+    "particle": "loydmod:blocks/nightmarish_block"
+  }
+}

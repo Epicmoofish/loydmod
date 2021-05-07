@@ -1131,7 +1131,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BasicModStuff"
     },
     {
       "name": "NoDreamType",
@@ -1218,6 +1219,146 @@
       "ids": {},
       "registry_name": "which_dream_overlay",
       "path": "~/BasicModStuff"
+    },
+    {
+      "name": "NightmareDirt",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmare_dirt",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "NightmareGrassBlock",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmare_grass_block",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "NightmareCobblestone",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmare_cobblestone",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "NightmareStone",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmare_stone",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "NightmarishOre",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmarish_ore",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "NightmarishBlock",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmarish_block",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "StoneCraftingMaterialsTag",
+      "type": "tag",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_crafting_materials_tag",
+      "path": "~/BasicModStuff"
+    },
+    {
+      "name": "DreamStoneSmelting",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dream_stone_smelting",
+      "path": "~/DreamDimensionStuff"
+    },
+    {
+      "name": "DreamgemOreSmelting",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dreamgem_ore_smelting",
+      "path": "~/DreamDimensionStuff"
+    },
+    {
+      "name": "IngotOfNightmares",
+      "type": "item",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nightmarish_ingot",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "NightmarishBlockRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmarish_block_recipe",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "NightmarishIngotRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmarish_ingot_recipe",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "NightmareStoneSmelting",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmare_stone_smelting",
+      "path": "~/NightmareDimensionStuff"
+    },
+    {
+      "name": "NightmarishOreSmelting",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nightmarish_ore_smelting",
+      "path": "~/NightmareDimensionStuff"
     }
   ],
   "variable_elements": [
@@ -1234,7 +1375,7 @@
       "item.loydmod.dream_holder": "Dream Holder",
       "item.loydmod.dreamgem_helmet": "Dreamgem Helmet",
       "item.minecraft.lingering_potion.effect.dreamy": "Lingering Potion of Dreaminess",
-      "biome.loydmod.nightmare_forest": "Dream Forest",
+      "biome.loydmod.nightmare_forest": "Nightmare Forest",
       "block.loydmod.dream_wood": "Dream Wood",
       "block.loydmod.dream_log": "Dream Log",
       "block.loydmod.nightmare_log": "Nightmare Log",
@@ -1247,6 +1388,7 @@
       "item.loydmod.dreamgem_chestplate": "Dreamgem Chestplate",
       "block.loydmod.nightmarish_slab": "Nightmarish Slab",
       "item.loydmod.dreamgem_leggings": "Dreamgem Leggings",
+      "block.loydmod.nightmare_cobblestone": "Nightmare Cobblestone",
       "item.minecraft.splash_potion.effect.dreamy": "Splash Potion of Dreaminess",
       "item.minecraft.tipped_arrow.effect.dreamy": "Arrow of Dreaminess",
       "item.loydmod.nightmare_catcher": "Nightmare Catcher",
@@ -1254,10 +1396,13 @@
       "block.loydmod.dream_fence_gate": "Dream Fence Gate",
       "item.minecraft.lingering_potion.effect.dreamy_long": "Lingering Potion Of Dreaminess",
       "block.loydmod.dream_sapling": "Dream Sapling",
+      "block.loydmod.nightmare_dirt": "Nightmare Dirt",
       "entity.loydmod.dream_bot": "Dream Bot",
-      "biome.loydmod.nightmare_plains": "Dream Plains",
+      "biome.loydmod.nightmare_plains": "Nightmare Plains",
+      "block.loydmod.nightmare_grass_block": "Nightmare Grass Block",
       "item.minecraft.tipped_arrow.effect.dreamy_long": "Arrow of Dreaminess",
       "block.loydmod.nightmarish_stairs": "Nightmarish Stairs",
+      "block.loydmod.nightmarish_ore": "Nightmarish Ore",
       "block.loydmod.nightmare_sapling": "Nightmare Sapling",
       "block.loydmod.dream_stone": "Dream Stone",
       "item.loydmod.dreamgem_boots": "Dreamgem Boots",
@@ -1269,6 +1414,8 @@
       "block.loydmod.dream_dirt": "Dream Dirt",
       "item.loydmod.robot_components": "Robot Components",
       "effect.dreamy": "Dreamy",
+      "block.loydmod.nightmare_stone": "Nightmare Stone",
+      "block.loydmod.nightmarish_block": "Block of Nightmares",
       "block.loydmod.nightmarish_leaves": "Nightmarish Leaves",
       "block.loydmod.dream_fence": "Dream Fence",
       "biome.loydmod.dream_forest": "Dream Forest",
@@ -1279,6 +1426,7 @@
       "item.minecraft.splash_potion.effect.dreamy_long": "Splash Potion of Dreaminess",
       "block.loydmod.dream_planks": "Dream Planks",
       "block.loydmod.nightmare_wood": "Nightmare Wood",
+      "item.loydmod.nightmarish_ingot": "Ingot Of Nightmares",
       "biome.loydmod.dream_plains": "Dream Plains",
       "block.loydmod.dream_stairs": "Dream Stairs",
       "block.loydmod.dreamgem_block": "Block of Dreamgem",

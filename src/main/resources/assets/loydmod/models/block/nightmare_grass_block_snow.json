@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "loydmod:blocks/nightmare_dirt",
+        "bottom": "loydmod:blocks/nightmare_dirt",
+        "top": "loydmod:blocks/nightmare_grass_top",
+        "side": "loydmod:blocks/nightmare_grass_side"
+    }
+}

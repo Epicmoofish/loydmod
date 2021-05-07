@@ -64,7 +64,7 @@
       "sea_level": 63,
       "disable_mob_generation": false,
       "default_block": {
-        "Name": "loydmod:nightmarish_planks"
+        "Name": "loydmod:nightmare_stone"
       },
       "default_fluid": {
         "Name": "minecraft:water",

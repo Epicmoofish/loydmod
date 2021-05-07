@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "loydmod:dream_dirt",
-    "loydmod:dream_grass_block"
+    "loydmod:dream_grass_block",
+    "loydmod:nightmare_dirt",
+    "loydmod:nightmare_grass_block"
   ]
 }

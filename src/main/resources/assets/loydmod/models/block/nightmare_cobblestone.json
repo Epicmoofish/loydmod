@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "loydmod:blocks/nightmare_cobblestone",
+    "up": "loydmod:blocks/nightmare_cobblestone",
+    "north": "loydmod:blocks/nightmare_cobblestone",
+    "east": "loydmod:blocks/nightmare_cobblestone",
+    "south": "loydmod:blocks/nightmare_cobblestone",
+    "west": "loydmod:blocks/nightmare_cobblestone",
+    "particle": "loydmod:blocks/nightmare_cobblestone"
+  }
+}

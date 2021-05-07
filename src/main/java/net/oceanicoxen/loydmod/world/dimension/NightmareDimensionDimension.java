@@ -1,7 +1,7 @@
 
 package net.oceanicoxen.loydmod.world.dimension;
 
-import net.oceanicoxen.loydmod.block.NightmarishPlanksBlock;
+import net.oceanicoxen.loydmod.block.NightmareStoneBlock;
 import net.oceanicoxen.loydmod.LoydmodModElements;
 
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -12,7 +12,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.gen.carver.WorldCarver;
-import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.client.world.DimensionRenderInfo;
@@ -36,10 +35,10 @@ public class NightmareDimensionDimension extends LoydmodModElements.ModElement {
 			try {
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CAVE, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CAVE, "field_222718_j"))
-						.add(NightmarishPlanksBlock.block.getDefaultState().getBlock()).build(), "field_222718_j");
+						.add(NightmareStoneBlock.block.getDefaultState().getBlock()).build(), "field_222718_j");
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CANYON, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CANYON, "field_222718_j"))
-						.add(NightmarishPlanksBlock.block.getDefaultState().getBlock()).build(), "field_222718_j");
+						.add(NightmareStoneBlock.block.getDefaultState().getBlock()).build(), "field_222718_j");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

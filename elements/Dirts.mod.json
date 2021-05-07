@@ -10,6 +10,12 @@
       },
       {
         "value": "CUSTOM:DreamGrassBlock"
+      },
+      {
+        "value": "CUSTOM:NightmareDirt"
+      },
+      {
+        "value": "CUSTOM:NightmareGrassBlock"
       }
     ],
     "functions": [],

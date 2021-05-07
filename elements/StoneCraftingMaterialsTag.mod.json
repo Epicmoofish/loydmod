@@ -14,7 +14,7 @@
     "blocks": [],
     "functions": [],
     "entities": [],
-    "name": "stone_tool_materials",
+    "name": "stone_crafting_materials",
     "namespace": "minecraft"
   }
 }

@@ -47,6 +47,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.network.NetworkRegistry;
 import net.minecraftforge.fml.network.simple.SimpleChannel;
 import net.oceanicoxen.loydmod.block.DreamGrassBlockBlock;
+import net.oceanicoxen.loydmod.block.NightmareGrassBlockBlock;
 
 @Mod("loydmod")
 public class LoydmodMod {
@@ -107,7 +108,7 @@ public class LoydmodMod {
 	public void registerBlockColors(ColorHandlerEvent.Block event) {
 		event.getBlockColors().register((p_228064_0_, p_228064_1_, p_228064_2_, p_228064_3_) -> {
 			return p_228064_1_ != null && p_228064_2_ != null ? BiomeColors.getGrassColor(p_228064_1_, p_228064_2_) : GrassColors.get(0.5D, 1.0D);
-		}, DreamGrassBlockBlock.block);
+		}, DreamGrassBlockBlock.block, NightmareGrassBlockBlock.block);
 	}
 	@OnlyIn(Dist.CLIENT)
 	@SubscribeEvent
@@ -116,6 +117,10 @@ public class LoydmodMod {
 	         BlockState blockstate = ((BlockItem)p_210235_1_.getItem()).getBlock().getDefaultState();
 	         return -10027009;
 	      }, DreamGrassBlockBlock.block);
+		event.getItemColors().register((p_210235_1_, p_210235_2_) -> {
+	         BlockState blockstate = ((BlockItem)p_210235_1_.getItem()).getBlock().getDefaultState();
+	         return 0x961805;
+	      }, NightmareGrassBlockBlock.block);
 	}
 	private static class LoydmodModFMLBusEvents {
 		private final LoydmodMod parent;
